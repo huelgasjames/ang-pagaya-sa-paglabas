@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ang Pagaya sa Paglabas</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- MUSIC -->
+  <audio autoplay loop>
+    <source src="assets/music/H.E.R. - Best Part (Lyrics) Ft. Daniel Caesar.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- LOADING SCREEN -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+      <img src="assets/images/ms-nikki.png" alt="Loading" class="loading-image">
+      <p class="loading-text">Loading...</p>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <h1>🌸 A Tiny Question For You 🌸</h1>
+
+    <!-- FLOWERS -->
+
+    <div class="flowers">
+
+      <img src="assets/images/set of flowers (2).png" alt="Flowers">
+
+      <img src="assets/images/boquet.png" alt="Bouquet">
+
+      <img src="assets/images/set of flowers (2).png" alt="Flowers">
+
+    </div>
+
+    <!-- FORM -->
+
+    <div class="form-box">
+
+      <label>
+        Hello Ms? 💖
+      </label>
+
+      <input
+        type="text"
+        id="girlName"
+        placeholder="Enter your name..."
+      >
+
+      <label>
+        Where do you want to go? 🌸
+      </label>
+
+      <select id="place">
+
+        <option value="">
+          Choose a place 💖
+        </option>
+
+        <option value="Coffee Date ☕">
+          Coffee Date ☕
+        </option>
+
+        <option value="Samgyup 🍖">
+          Samgyup 🍖
+        </option>
+
+        <option value="Arcade 🎮">
+          Arcade 🎮
+        </option>
+
+        <option value="Cinema 🍿">
+          Cinema 🍿
+        </option>
+
+        <option value="Museum 🎨">
+          Museum 🎨
+        </option>
+
+        <option value="Ikaw Bahala 🌸">
+          Ikaw Bahala 🌸
+        </option>
+
+      </select>
+
+      <p class="smallText">
+        If meron kang suggestions na lugar,
+        sige tara don 💖
+      </p>
+
+      <label>
+        Any preferred date? 📅
+      </label>
+
+      <input
+        type="date"
+        id="datePick"
+      >
+
+    </div>
+
+    <!-- CONTINUE BUTTON -->
+
+    <button id="continueBtn">
+      Continue 💖
+    </button>
+
+    <!-- QUESTION -->
+
+    <div class="question-box hidden">
+
+      <h2>
+        Pwede ka bang ayain lumabas? 💖
+      </h2>
+
+      <button id="yesBtn">
+        YES 💖
+      </button>
+
+      <button id="noBtn">
+        NO 😭
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
